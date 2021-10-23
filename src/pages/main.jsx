@@ -15,7 +15,7 @@ const mainPage = () => {
             a Systems Engineer and Front-End Web Developer <br /> with knowledge
             and experience in responsive web design <br /> for Web pages and Administrative Software.
           </p>
-          <a href="#" className="btn btn-dark mt-3 btn-rd">Contact Me</a>
+          <a href="#contact" className="btn btn-dark mt-3 btn-rd">Contact Me</a>
         </div>
       </section>
       <section id="resume" className="vh-100">
