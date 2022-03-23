@@ -7,10 +7,10 @@ const Header = () => {
     <>
       <Navbar bg="white" expand="lg" fixed="top">
         <Container>
-          <Navbar.Brand href="mailto:omovisolutions@gmail.com" className="mx-2"><UilEnvelope  /> <span className="email-text">omovisolutions@gmail.com</span> </Navbar.Brand>
+          <Navbar.Brand href="mailto:omovisolutions@gmail.com" className="mx-2"><UilEnvelope  /> <span className="email-text">omdev@omprojects.com</span> </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-            <Nav>
+            <Nav className="fw-bold">
               <Nav.Link href="#resume">Resume</Nav.Link> 
               <Nav.Link href="#works">Works</Nav.Link >
               <Nav.Link href="#contact">Contact</Nav.Link> 
