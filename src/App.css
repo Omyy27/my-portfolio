@@ -52,3 +52,44 @@ h4{
     display: none;
   }
 }
+
+.goTop{
+  position: relative;
+}
+
+.icon-top{ 
+  background-color: #fff;
+  border: 2px solid #343a40;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #000;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+}
+
+.icon-top:hover{
+  animation: none;
+  background: #343a40;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+@keyframes movebtn {
+  0%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}

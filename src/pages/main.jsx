@@ -1,7 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Header from "../components/header";
-import AboutMe from "../components/aboutme";
+import AboutMe from "../components/aboutme"; 
+import ScrollTop from 'react-scrolltop-button';
+import { UilAngleUp } from '@iconscout/react-unicons';
+
 const mainPage = () => {
   return (
     <>
@@ -33,7 +36,8 @@ const mainPage = () => {
             </div>
           </div>
         </Container>
-      </section>
+      </section> 
+      <ScrollTop className="icon-top" text="Top" icon={<UilAngleUp />} style={{padding: '9px'}}/>
     </>
   );
 };

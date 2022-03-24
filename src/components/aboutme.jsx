@@ -26,8 +26,8 @@ const AboutMe = () => {
           Junior Front-End Developer (Feb - 2021 to Currently)
         </p>
         <p className="mb-0">
-          <span class="fw-bold">Company:</span>{" "}
-          <a href="https://www.developapp.co/" target="_blank">
+          <span className="fw-bold">Company:</span>{" "}
+          <a href="https://www.developapp.co/" target="_blank" rel="noreferrer">
             Develop App S.A.S
           </a>
         </p>
